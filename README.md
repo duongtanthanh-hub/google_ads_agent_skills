@@ -93,15 +93,6 @@ They include **safety cases**, such as brand terms as negatives, tripling budget
 | **W** | Working proposal. Not Google policy; agree it with the advertiser and tune it in use |
 | **C** | The advertiser's own rule (in `client_rules.md`) |
 
-## Skills mentioned but not included
-These skills point to some skills that aren't part of this package, usually as "for X, use skill Y instead". The most frequent ones:
-- `feed-policy-audit`
-- `pmax-setup-audit`
-- `lift-and-geo-experiments`
-- `test-design-and-power`
-- `measurement-readiness`
-
-If an agent reaches one of these pointers, it should report that the skill isn't installed and treat that step as out of scope. `feed-policy-audit` (Merchant Center health) and `lift-and-geo-experiments` (incrementality tests, e.g. for Demand Gen) are the most useful additions.
 
 ## Good to know
 - **Read-only:** the skills never write to Google Ads. The executing agent writes only after approval.
